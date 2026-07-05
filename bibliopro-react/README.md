@@ -85,4 +85,3 @@ Projet réalisé par **Juste Vivien AGBO** dans le cadre de la formation **Déve
 ## 📄 Licence
 
 Projet réalisé à des fins pédagogiques dans le cadre de la formation OIF DCLIC.
-
