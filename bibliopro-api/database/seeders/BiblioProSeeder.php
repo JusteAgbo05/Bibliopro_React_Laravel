@@ -17,7 +17,7 @@ class BiblioProSeeder extends Seeder
         User::create([
             'name' => 'Admin Bibliothécaire',
             'email' => 'biblio@bibliopro.local',
-            'password' => Hash::make('password'),
+            'password' => Hash::make('password123!'),
             'role' => 'bibliothecaire',
         ]);
 
