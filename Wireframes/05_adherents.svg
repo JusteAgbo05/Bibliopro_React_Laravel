@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" font-family="Arial">
+  <rect x="0" y="0" width="800" height="550" fill="white" stroke="#999" stroke-width="2"/>
+  <rect x="15" y="15" width="770" height="50" fill="#EBF5F8" stroke="#0066993A" stroke-dasharray="4"/>
+  <text x="380" y="45" text-anchor="middle" font-size="14" fill="#555">Header</text>
+  <rect x="650" y="25" width="120" height="30" rx="6" fill="#0096881F" stroke="#009688" stroke-width="1.5"/>
+  <text x="710" y="45" text-anchor="middle" font-size="12">+ Inscrire</text>
+
+  <g>
+    <rect x="25" y="90" width="750" height="80" fill="white" stroke="#555" stroke-width="1.5"/>
+    <text x="45" y="135" font-size="14" fill="#555">Nom -- Email -- Date d'inscription</text>
+    <rect x="650" y="115" width="100" height="30" rx="6" fill="#0096881F" stroke="#009688" stroke-width="1.5"/>
+    <text x="700" y="135" text-anchor="middle" font-size="12">Voir fiche</text>
+  </g>
+  <g>
+    <rect x="25" y="185" width="750" height="80" fill="white" stroke="#555" stroke-width="1.5"/>
+    <text x="45" y="230" font-size="14" fill="#555">Nom -- Email -- Date d'inscription</text>
+    <rect x="650" y="210" width="100" height="30" rx="6" fill="#0096881F" stroke="#009688" stroke-width="1.5"/>
+    <text x="700" y="230" text-anchor="middle" font-size="12">Voir fiche</text>
+  </g>
+  <g>
+    <rect x="25" y="280" width="750" height="80" fill="white" stroke="#555" stroke-width="1.5"/>
+    <text x="45" y="325" font-size="14" fill="#555">Nom -- Email -- Date d'inscription</text>
+    <rect x="650" y="305" width="100" height="30" rx="6" fill="#0096881F" stroke="#009688" stroke-width="1.5"/>
+    <text x="700" y="325" text-anchor="middle" font-size="12">Voir fiche</text>
+  </g>
+
+  <rect x="15" y="500" width="770" height="35" fill="#EBF5F8" stroke="#0066993A" stroke-dasharray="4"/>
+  <text x="400" y="522" text-anchor="middle" font-size="11" fill="#777">Footer</text>
+</svg>

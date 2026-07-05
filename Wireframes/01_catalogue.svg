@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Arial">
+  <rect x="0" y="0" width="800" height="600" fill="white" stroke="#999" stroke-width="2"/>
+  <rect x="15" y="15" width="770" height="50" fill="#EBF5F8" stroke="#0066993A" stroke-dasharray="4"/>
+  <text x="400" y="45" text-anchor="middle" font-size="14" fill="#555">Header : Logo BiblioPro -- Catalogue -- Emprunts -- Adherents -- Login</text>
+
+  <rect x="15" y="80" width="770" height="55" fill="#EBF5F8" stroke="#0066993A" stroke-dasharray="4"/>
+  <text x="400" y="112" text-anchor="middle" font-size="14" fill="#555">Barre de recherche + filtres : titre / auteur / categorie / disponibilite</text>
+
+  <!-- Cards -->
+  <g id="card1">
+    <rect x="25" y="150" width="750" height="80" fill="white" stroke="#555" stroke-width="1.5"/>
+    <text x="45" y="195" font-size="14" fill="#555">Carte livre : titre, auteur, categorie</text>
+    <rect x="650" y="175" width="100" height="30" rx="6" fill="#0096881F" stroke="#009688" stroke-width="1.5"/>
+    <text x="700" y="195" text-anchor="middle" font-size="12">Voir detail</text>
+  </g>
+  <g id="card2">
+    <rect x="25" y="245" width="750" height="80" fill="white" stroke="#555" stroke-width="1.5"/>
+    <text x="45" y="290" font-size="14" fill="#555">Carte livre : titre, auteur, categorie</text>
+    <rect x="650" y="270" width="100" height="30" rx="6" fill="#0096881F" stroke="#009688" stroke-width="1.5"/>
+    <text x="700" y="290" text-anchor="middle" font-size="12">Voir detail</text>
+  </g>
+  <g id="card3">
+    <rect x="25" y="340" width="750" height="80" fill="white" stroke="#555" stroke-width="1.5"/>
+    <text x="45" y="385" font-size="14" fill="#555">Carte livre : titre, auteur, categorie</text>
+    <rect x="650" y="365" width="100" height="30" rx="6" fill="#0096881F" stroke="#009688" stroke-width="1.5"/>
+    <text x="700" y="385" text-anchor="middle" font-size="12">Voir detail</text>
+  </g>
+  <g id="card4">
+    <rect x="25" y="435" width="750" height="80" fill="white" stroke="#555" stroke-width="1.5"/>
+    <text x="45" y="480" font-size="14" fill="#555">Carte livre : titre, auteur, categorie</text>
+    <rect x="650" y="460" width="100" height="30" rx="6" fill="#0096881F" stroke="#009688" stroke-width="1.5"/>
+    <text x="700" y="480" text-anchor="middle" font-size="12">Voir detail</text>
+  </g>
+
+  <rect x="15" y="535" width="770" height="35" fill="#EBF5F8" stroke="#0066993A" stroke-dasharray="4"/>
+  <text x="400" y="557" text-anchor="middle" font-size="11" fill="#777">Footer -- BiblioPro 2026</text>
+</svg>

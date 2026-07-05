@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550" font-family="Arial">
+  <rect x="0" y="0" width="800" height="550" fill="white" stroke="#999" stroke-width="2"/>
+  <rect x="15" y="15" width="770" height="50" fill="#EBF5F8" stroke="#0066993A" stroke-dasharray="4"/>
+  <text x="400" y="45" text-anchor="middle" font-size="14" fill="#555">Header</text>
+
+  <text x="400" y="110" text-anchor="middle" font-size="20" font-weight="bold" fill="#333">Nouvel emprunt</text>
+
+  <rect x="80" y="150" width="640" height="40" fill="white" stroke="#555" stroke-width="1.5"/>
+  <text x="100" y="175" font-size="13" fill="#777">Selection : Exemplaire disponible</text>
+
+  <rect x="80" y="205" width="640" height="40" fill="white" stroke="#555" stroke-width="1.5"/>
+  <text x="100" y="230" font-size="13" fill="#777">Selection : Adherent</text>
+
+  <rect x="80" y="260" width="640" height="40" fill="white" stroke="#555" stroke-width="1.5"/>
+  <text x="100" y="285" font-size="13" fill="#777">Date de retour prevue (calculee automatiquement)</text>
+
+  <rect x="230" y="330" width="150" height="45" rx="8" fill="#0096881F" stroke="#009688" stroke-width="1.5"/>
+  <text x="305" y="358" text-anchor="middle" font-size="14">Valider</text>
+
+  <rect x="420" y="330" width="150" height="45" rx="8" fill="white" stroke="#009688" stroke-width="1.5"/>
+  <text x="495" y="358" text-anchor="middle" font-size="14">Annuler</text>
+
+  <rect x="15" y="500" width="770" height="35" fill="#EBF5F8" stroke="#0066993A" stroke-dasharray="4"/>
+  <text x="400" y="522" text-anchor="middle" font-size="11" fill="#777">Footer</text>
+</svg>

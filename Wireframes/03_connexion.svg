@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial">
+  <rect x="0" y="0" width="800" height="500" fill="white" stroke="#999" stroke-width="2"/>
+  <rect x="15" y="15" width="770" height="50" fill="#EBF5F8" stroke="#0066993A" stroke-dasharray="4"/>
+  <text x="400" y="45" text-anchor="middle" font-size="14" fill="#555">Header</text>
+
+  <text x="400" y="110" text-anchor="middle" font-size="20" font-weight="bold" fill="#333">Connexion BiblioPro</text>
+
+  <rect x="200" y="150" width="400" height="40" fill="white" stroke="#555" stroke-width="1.5"/>
+  <text x="220" y="175" font-size="13" fill="#777">Champ Email</text>
+
+  <rect x="200" y="205" width="400" height="40" fill="white" stroke="#555" stroke-width="1.5"/>
+  <text x="220" y="230" font-size="13" fill="#777">Champ Mot de passe</text>
+
+  <rect x="300" y="265" width="200" height="45" rx="8" fill="#0096881F" stroke="#009688" stroke-width="1.5"/>
+  <text x="400" y="293" text-anchor="middle" font-size="14">Se connecter</text>
+
+  <text x="400" y="345" text-anchor="middle" font-size="11" fill="#777">Pas encore inscrit ? Creer un compte</text>
+
+  <rect x="15" y="450" width="770" height="35" fill="#EBF5F8" stroke="#0066993A" stroke-dasharray="4"/>
+  <text x="400" y="472" text-anchor="middle" font-size="11" fill="#777">Footer</text>
+</svg>
