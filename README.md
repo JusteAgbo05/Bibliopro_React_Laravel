@@ -1,47 +1,83 @@
-# BiblioPro
+# 📚 BiblioPro
 
-Système de gestion de bibliothèque municipale — Projet Final Semaine 6, cours Développement Web Avancé (OIF DCLIC).
+Système de gestion d'une bibliothèque municipale — Projet final de la Semaine 6 du cours Développement Web Avancé (Programme OIF DCLIC).
 
-## Description
+---
 
-BiblioPro permet à une bibliothèque municipale de gérer son catalogue (livres, auteurs, catégories, exemplaires), ses adhérents et ses emprunts, avec calcul automatique des pénalités de retard.
+## 📖 Description
 
-## Technologies
+BiblioPro est une application web permettant à une bibliothèque municipale de gérer efficacement :
 
-- **Front-end** : React (Vite), React Router DOM, Axios, Bootstrap 5
-- **Back-end** : Laravel 12, Sanctum (authentification par rôles), MySQL
+- le catalogue de livres ;
+- les auteurs ;
+- les catégories ;
+- les exemplaires ;
+- les adhérents ;
+- les emprunts et les retours.
 
-## Structure du dépôt
+L'application intègre également le calcul automatique des pénalités en cas de retard de restitution des ouvrages.
+
+---
+
+## 🛠️ Technologies utilisées
+
+### Front-end
+- React (Vite)
+- React Router DOM
+- Axios
+- Bootstrap 5
+
+### Back-end
+- Laravel 12
+- Laravel Sanctum (authentification et gestion des rôles)
+- MySQL
+
+---
+
+## 📂 Structure du projet
 
 Bibliopro_React_Laravel/
-├── bibliopro-react/   # Application front-end React
-├── bibliopro-api/      # API back-end Laravel (à venir)
-└── wireframes/          # Wireframes UX/UI (SVG)
+├── bibliopro-react/     # Application Front-end React
+├── bibliopro-api/       # API Back-end Laravel
+└── wireframes/          # Maquettes UX/UI (SVG)
+---
 
-## Fonctionnalités principales
+## ✨ Fonctionnalités principales
 
-- Gestion du catalogue (CRUD livres, auteurs, catégories, exemplaires)
+- Gestion complète du catalogue (CRUD des livres, auteurs, catégories et exemplaires)
 - Gestion des adhérents et de leur historique d'emprunts
-- Gestion des emprunts avec calcul automatique des pénalités de retard
+- Gestion des emprunts et des retours
+- Calcul automatique des pénalités de retard
 - Recherche multicritère (titre, auteur, catégorie, disponibilité)
-- Authentification par rôles (bibliothécaire / adhérent)
+- Authentification avec gestion des rôles (bibliothécaire et adhérent)
 
-## Installation front-end
+---
 
-```bash
+## 🚀 Installation du front-end
+
 cd bibliopro-react
 npm install
 npm run dev
-```
+---
 
-## État d'avancement
+## 📌 État d'avancement
 
-- [x] Conception (cahier des charges, dossier de conception, wireframes)
-- [x] Front-end React (auth, catalogue, adhérents, emprunts, profil)
-- [ ] Back-end Laravel (dépôt à venir)
-- [ ] Tests PHPUnit
-- [ ] Rapport final
+- ✅ Cahier des charges
+- ✅ Dossier de conception
+- ✅ Wireframes
+- ✅ Développement du front-end React
+- ⏳ Développement du back-end Laravel
+- ⏳ Tests PHPUnit
+- ⏳ Rapport final
 
-## Auteur
+---
 
-Projet réalisé par Juste Vivien AGBO dans le cadre du cours OIF DCLIC — Développement Web Niveau Approfondi.
+## 👨‍💻 Auteur
+
+Projet réalisé par Juste Vivien AGBO dans le cadre de la formation Développement Web Avancé du programme OIF DCLIC.
+
+---
+
+## 📄 Licence
+
+Projet réalisé à des fins pédagogiques dans le cadre de la formation OIF DCLIC.
