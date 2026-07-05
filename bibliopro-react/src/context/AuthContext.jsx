@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import api from '../api/axios'
-
 import { AuthContext } from './AuthContextValue'
 
 export function AuthProvider({ children }) {
@@ -11,7 +10,14 @@ export function AuthProvider({ children }) {
     const token = localStorage.getItem('token')
     const savedUser = localStorage.getItem('user')
     // eslint-disable-next-line react-hooks/set-state-in-effect
-    if (token && savedUser) setUser(JSON.parse(savedUser))
+    if (token && savedUser) {
+      try {
+        setUser(JSON.parse(savedUser))
+      } catch {
+        localStorage.removeItem('token')
+        localStorage.removeItem('user')
+      }
+    }
     setLoading(false)
   }, [])
 
@@ -23,7 +29,11 @@ export function AuthProvider({ children }) {
   }
 
   const logout = async () => {
-    await api.post('/logout')
+    try {
+      await api.post('/logout')
+    } catch {
+      // ignore, on nettoie quand même la session locale
+    }
     localStorage.removeItem('token')
     localStorage.removeItem('user')
     setUser(null)
