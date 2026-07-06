@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import api from '../api/axios'
 import { useAuth } from '../hooks/useAuth'
 
-const API_BASE = 'http://localhost:8000'
+const API_BASE = import.meta.env.VITE_API_BASE?.replace('/api', '') || 'http://localhost:8000'
 const coverSrc = (url) => url ? `${API_BASE}${url}` : 'https://placehold.co/90x130?text=Livre'
 
 export default function CataloguePage() {
