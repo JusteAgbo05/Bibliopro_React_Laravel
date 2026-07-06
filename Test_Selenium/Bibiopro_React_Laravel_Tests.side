@@ -1,0 +1,201 @@
+{
+  "id": "c81743e2-4e8a-40bb-99f1-33694eb20dbc",
+  "version": "2.0",
+  "name": "Bibiopro_React_Laravel_Tests",
+  "url": "http://localhost:5173",
+  "tests": [{
+    "id": "bfde0ddc-1d14-435d-9231-7e00be791b3c",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "5927d1d0-289d-4526-91d1-cf62e6e0a901",
+    "name": "Connexion_recherche_livre",
+    "commands": [{
+      "id": "0db1e942-1609-4828-919f-d1223ae7b831",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "336d0efc-9582-4a02-bece-e0b3c809cc5f",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=input[type=\"email\"]",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "516a49a4-3538-423a-9236-e2ad0d361071",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.querySelector('input[type=\"email\"]').value='biblio@bibliopro.local'; document.querySelector('input[type=\"email\"]').dispatchEvent(new Event('input',{bubbles:true}))",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11e90e6a-a1d1-4ff7-a4f5-b31e836440fc",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.querySelector('input[type=\"password\"]').value='password123!'; document.querySelector('input[type=\"password\"]').dispatchEvent(new Event('input',{bubbles:true}))",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5147d9cb-1d3e-47cd-a06d-e26b309b81e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=form button[type=\"submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7d28ed4-b5b3-4948-8bd4-29e423996a67",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=a[href=\"/catalogue\"]",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "99ab0fe7-b94e-422d-a01d-2f4ee2e41743",
+      "comment": "",
+      "command": "open",
+      "target": "/catalogue",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d41f8148-e1bd-4b08-a115-f9b8e8b74174",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=input[placeholder=\"Rechercher un titre...\"]",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "e891e9b3-6a5b-4406-b5ad-16ff8a266e9a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.querySelector('input[placeholder=\"Rechercher un titre...\"]').value = \"Confiance\"; document.querySelector('input[placeholder=\"Rechercher un titre...\"]').dispatchEvent(new Event('input', { bubbles: true }));",
+      "targets": [],
+      "value": "Confiance"
+    }, {
+      "id": "83a8ec13-3e00-45bc-b12e-73e8eea4a0f6",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//*[contains(text(),\"La confiance en soi expliquée\")]",
+      "targets": [],
+      "value": "5000"
+    }]
+  }, {
+    "id": "39c8a914-59c0-4221-b490-dbc77f925803",
+    "name": "Profil_adherent",
+    "commands": [{
+      "id": "ed62e924-8d43-44c7-ba61-567b0fba0744",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29f29f41-8807-4f35-bac5-3ce8ebaad3a7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=input[type=\"email\"]",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "cbf62b70-9883-4192-8864-bba4c69e783f",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.querySelector('input[type=\"email\"]').value = 'juste@gmail.com'; document.querySelector('input[type=\"email\"]').dispatchEvent(new Event('input', { bubbles: true }));",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c6cd303-2688-46da-aef9-f43ab641345c",
+      "comment": "",
+      "command": "executeScript",
+      "target": "document.querySelector('input[type=\"password\"]').value='C\\'estreel05'; document.querySelector('input[type=\"password\"]').dispatchEvent(new Event('input',{bubbles:true}))",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ca58a1e-7879-4092-8b59-ecbb4933f171",
+      "comment": "",
+      "command": "click",
+      "target": "css=form button[type=\"submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c41fecc6-f8e6-4ef0-82c5-ba9308a5756e",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=a[href=\"/profil\"]",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "b5e2d287-3d17-4cfb-b980-6d869d2d7780",
+      "comment": "",
+      "command": "click",
+      "target": "css=a[href=\"/profil\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ab39132-76cd-4881-9a22-4f0501f133c7",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "xpath=//*[contains(text(),\"Rôle\")]",
+      "targets": [],
+      "value": "5000"
+    }]
+  }, {
+    "id": "f9ff5344-a06b-4d70-a6f7-930e078e798a",
+    "name": "Creation_emprunt",
+    "commands": [{
+      "id": "43b6e1ef-fbe9-4223-9342-783d24a624aa",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f55edb63-5655-43d9-9abc-577acfde16c5",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=input[type=\"email\"]",
+      "targets": [],
+      "value": "5000"
+    }, {
+      "id": "51e517d4-f2a7-49c3-80c4-d123739d261a",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const input = document.querySelector('input[type=\"email\"]'); const setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, \"value\").set; setter.call(input, 'biblio@bibliopro.local'); input.dispatchEvent(new Event('input', { bubbles: true }));",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31fa5cb3-271f-4a3c-ba4d-c71ed9911f27",
+      "comment": "",
+      "command": "executeScript",
+      "target": "const input = document.querySelector('input[type=\"password\"]'); const setter = Object.getOwnPropertyDescriptor(window.HTMLInputElement.prototype, \"value\").set; setter.call(input, 'password123!'); input.dispatchEvent(new Event('input', { bubbles: true }));",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "31db28c1-0814-43db-980c-964ce5d9d190",
+      "comment": "",
+      "command": "click",
+      "target": "css=form button[type=\"submit\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9f769c6d-5cb7-43fe-95e5-f1945a5032f6",
+      "comment": "",
+      "command": "open",
+      "target": "/catalogue/1",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e0e3e81d-3001-4f31-a086-39d950895bfb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["bfde0ddc-1d14-435d-9231-7e00be791b3c"]
+  }],
+  "urls": ["http://localhost:5173/"],
+  "plugins": []
+}
