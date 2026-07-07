@@ -11,15 +11,14 @@ return [
     | or "CORS". This determines what cross-origin operations may execute
     | in web browsers. You are free to adjust these settings as needed.
     |
-    | To learn more: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
-    |
     */
 
     'paths' => ['api/*', 'sanctum/csrf-cookie'],
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['https://bibliopro-react-laravel.vercel.app/'],
+    // Utiliser '*' permet d'accepter Vercel qu'il y ait un slash à la fin ou non
+    'allowed_origins' => ['*'],
 
     'allowed_origins_patterns' => [],
 
