@@ -34,3 +34,7 @@ Route::middleware(['auth:sanctum', 'role:bibliothecaire'])->group(function () {
     Route::apiResource('emprunts', EmpruntController::class)->except(['update', 'destroy']);
     Route::put('/emprunts/{emprunt}/retour', [EmpruntController::class, 'retour']);
 });
+
+Route::get('/ping', function () {
+    return response()->json(['status' => 'alive', 'timestamp' => now()]);
+});
