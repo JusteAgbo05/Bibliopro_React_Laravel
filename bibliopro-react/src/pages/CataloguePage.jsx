@@ -4,8 +4,15 @@ import api from '../api/axios'
 import { useAuth } from '../hooks/useAuth'
 
 const API_BASE = import.meta.env.VITE_API_BASE?.replace('/api', '') || 'http://localhost:8000'
-const coverSrc = (url) => url ? `${API_BASE}${url}` : 'https://placehold.co/90x130?text=Livre'
-
+// Remplacez votre ligne 7 par ceci :
+const coverSrc = (url) => {
+  if (!url) return 'https://placehold.co/90x130?text=Livre';
+  // Si l'url commence déjà par http ou https (au cas où vous insérez une image externe)
+  if (url.startsWith('http')) return url;
+  // S'assure qu'il y a bien un slash entre le domaine et le chemin
+  const separator = url.startsWith('/') ? '' : '/';
+  return `${API_BASE}${separator}${url}`;
+};
 export default function CataloguePage() {
   const { user } = useAuth()
   const [livres, setLivres] = useState([])
