@@ -19,7 +19,7 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['https://bibliopro-react-laravel.vercel.app/',],
+    'allowed_origins' => ['https://bibliopro-react-laravel-j68v0r5iz-bibliopro.vercel.app/'],
 
     'allowed_origins_patterns' => [],
 
